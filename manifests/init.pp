@@ -1,4 +1,4 @@
-class kubernetes {
+class k8_module {
 	package { ['kubeadm', 'kubelet', 'kubectl']:
 		ensure => 'present'
 	}
